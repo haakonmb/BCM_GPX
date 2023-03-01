@@ -1,5 +1,5 @@
 const createGpx = require('gps-to-gpx').default;
-
+const fs = require('fs');
 const waypoints = [
   { latitude: 60.39706, longitude: 5.3232683 },
   { latitude: 60.3971517, longitude: 5.323065 },
